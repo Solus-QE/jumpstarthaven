@@ -1,7 +1,7 @@
 [gd_scene format=4 uid="uid://c33pmonskbai4"]
 
-[ext_resource type="Texture2D" uid="uid://cs3weg4porolf" path="res://icon.svg" id="1_0xm2m"]
 [ext_resource type="Script" uid="uid://6ysh5mwapw6x" path="res://player.gd" id="1_h2yge"]
+[ext_resource type="Texture2D" uid="uid://bfpt6bujnrxyo" path="res://claude-ai-icon-65aa-3009390861.png" id="2_1bvp3"]
 [ext_resource type="Texture2D" uid="uid://bxrdh5lxelml4" path="res://Screenshot 2026-09-21 142851.png" id="2_h2yge"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_1swak"]
@@ -604,7 +604,7 @@ position_smoothing_enabled = true
 
 [node name="Sprite2D" type="Sprite2D" parent="Player" unique_id=1996240920]
 position = Vector2(158, -7)
-texture = ExtResource("1_0xm2m")
+texture = ExtResource("2_1bvp3")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Player" unique_id=889874625]
 position = Vector2(157.5, -7)
